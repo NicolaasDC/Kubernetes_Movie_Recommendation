@@ -24,6 +24,8 @@ Have Docker desktop and minikubes running on your local pc.
 [Minikube](https://minikube.sigs.k8s.io/docs/start/) 
 [Docker desktop](https://www.docker.com/products/docker-desktop/)
 
+Copy the repo to your local machine and execute the following commands:
+
 1. Build and push Docker Image to Docker Hub
 ```
 docker login
