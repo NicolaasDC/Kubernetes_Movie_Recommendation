@@ -20,7 +20,8 @@ This is a continuation of the [IMDB Movie recommendation](https://github.com/Nic
 
 ## 🤖 Usage
 Have Docker desktop and minikubes running on your local pc.
-[Minikube](https://minikube.sigs.k8s.io/docs/start/)
+
+[Minikube](https://minikube.sigs.k8s.io/docs/start/) 
 [Docker desktop](https://www.docker.com/products/docker-desktop/)
 
 1. Build and push Docker Image to Docker Hub
