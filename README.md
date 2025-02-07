@@ -26,23 +26,23 @@ Have Docker desktop and minikubes running on your local pc.
 
 Copy the repo to your local machine and execute the following commands:
 
-1. Build and push Docker Image to Docker Hub
+1. Login to Docker Hub, enter username and password.
 ```
 docker login
 ```
-Enter your Docker Hub username and password
+2. Create and push your docker image.
 ```
 docker build -t your_dockerhub_username/movie-recommendation:latest .
 docker push your_dockerhub_username/movie-recommendation:latest
 ```
 
-2. Deploy to Kubernetes
+3. Deploy to Kubernetes.
 ```
 kubectl apply -f deployment.yaml
 kubectl apply -f service.yaml
 ```
 
-3. Open the movie recommendation app
+4. Open the movie recommendation app.
 ```
 minikube service movie-recommendation-service
 ```
